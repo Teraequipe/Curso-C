@@ -10,6 +10,7 @@ int main(){
     struct aluno pedro = {"Pedro da Silva", 18};
     printf("Nome: ");
 
+
     puts(pedro.nome);
     printf("\n");
     printf("Idade: ");
@@ -19,3 +20,4 @@ int main(){
 
     return 0;
 }
+

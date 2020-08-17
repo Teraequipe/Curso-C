@@ -14,6 +14,6 @@ int fatorial(int n){
 }
 
 int main(){
-    printf("O fatorial de 6 é %f", fatorial(6))
+    printf("O fatorial de 6 eh %d", fatorial(6));
     return 0;
 }

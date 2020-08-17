@@ -8,10 +8,9 @@ struct aluno {
 };
 
 int main(){
-    struct aluno alunosufu[10]; //criando um array de 10 unidades do tipo aluno chamado alunos ufu
+    struct aluno alunosufu[5]; //criando um array de 10 unidades do tipo aluno chamado alunos ufu
 
-
-    for (int i = 0 ; i < 10; i++){
+    for (int i = 0 ; i < 5; i++){
         printf("Aluno %d:\n", i+1);
 
         printf("Insira o nome: ");
@@ -23,7 +22,7 @@ int main(){
 
 
     }
-    for (int i = 0 ; i < 10; i++){
+    for (int i = 0 ; i < 5; i++){
         printf("Aluno %d:\n", i+1);
 
         printf("Nome: ");
